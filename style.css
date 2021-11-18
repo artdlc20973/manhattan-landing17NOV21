@@ -1,0 +1,91 @@
+@import url('https:fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1499566727020-881da110a0b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=943&q=80') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 1.8em;
+    line-height: 80px;
+    margin: 0 2em;
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+    padding: 0 2em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(5) a {
+    border:#D1834F 1px solid;
+    border-radius: 4px;
+    padding: 7px 30px;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: #D1834F;
+    font-size: 3em;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.header p {
+    color: #D1834F;
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+
+.header button {
+    color: #fff;
+    background: #D1834F;
+    padding: 15px 40px;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
